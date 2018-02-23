@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class TheForgetfulMachine {
+     public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+       
+       System.out.print("What colour is the sky? "); 
+       String skyColour = input.next();
+       
+       System.out.print("What is your favourite colour? ");
+       String favouriteColour = input.next();
+       
+       System.out.print("How many fingers do u have? ");
+       int fingers = input.nextInt();
+       
+       System.out.print("What is 4 x 6? ");
+       int answer = input.nextInt();
+       }
+}
